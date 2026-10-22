@@ -8,12 +8,10 @@ export default function Home() {
   const [itens, setItens] = useState([]);
   const [categorias, setCategorias] = useState([]);
   const [locais, setLocais] = useState([]);
-
   const [busca, setBusca] = useState("");
   const [status, setStatus] = useState("");
   const [categoria, setCategoria] = useState("");
   const [local, setLocal] = useState("");
-
   const [carregando, setCarregando] = useState(true);
   const [erro, setErro] = useState("");
 
